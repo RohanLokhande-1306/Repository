@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Shivani</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<canvas id="loveCanvas"></canvas>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+    <h1 class="title">Happy Birthday Shivani 🎂</h1>
+    <button onclick="nextPage(2)">Click here</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+    <p class="message" id="typedText"></p>
+    <button onclick="nextPage(3)">One more thing</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+    <div class="gift-box" onclick="openGift()">🎁</div>
+
+    <div id="butterflyContainer"></div>
+
+    <img src="shivani.png" id="finalImg" class="final-img">
+
+    <button id="videoBtn" class="video-btn" onclick="openVideoPopup()">
+        For you… one more thing 💖
+    </button>
+</div>
+
+<!-- VIDEO POPUP -->
+<div id="videoPopup" class="video-popup">
+    <div class="close-btn" onclick="closeVideo()">✖</div>
+    <video id="popupVideo" controls>
+        <source src="your-video.mp4" type="video/mp4">
+    </video>
+</div>
+
+<footer>
+    Made with lots of love ❤️<br>
+    Shemda...🤧
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
