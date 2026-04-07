@@ -24,9 +24,8 @@ then we’ll definitely meet someday.
 
 And haa...I am Extremly Sorry yarr piliz🥹
 Bass Jhal Unblock pn kar ata...😡🥺
-If you ever need my help please let me know I am Forever here
-
-Take care`;
+If you ever need my help please let me know I am Forever here,
+ Take care`;
 
     let i = 0;
     let target = document.getElementById("typedText");
